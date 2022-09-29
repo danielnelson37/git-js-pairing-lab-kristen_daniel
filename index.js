@@ -7,4 +7,10 @@ function fiveToOneHundred (){
 }
 console.log(fiveToOneHundred());
 
+function multiplesOfThree(){
+    for (let i = 1; i <= 33; i++){
+        console.log(i*3)
+    }
+}
+multiplesOfThree()
 
