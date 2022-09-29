@@ -8,9 +8,19 @@ function fiveToOneHundred (){
 console.log(fiveToOneHundred());
 
 function multiplesOfThree(){
-    for (let i = 1; i <= 33; i++){
-        console.log(i*3)
+    for (let i = 3; i <= 100; i+=3){
+        console.log(i)
     }
 }
-multiplesOfThree()
+multiplesOfThree();
+
+function multiplesOfThreeOrFive(){
+    for (let i = 3; i <=100; i+=3){
+        console.log(i)
+    }
+    for (let i = 5; i <= 100; i+=5){
+        console.log(i)
+    }
+}
+multiplesOfThreeOrFive();
 
