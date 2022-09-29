@@ -66,21 +66,30 @@ function multiply (num1, num2){
  
  function betweenTwentyAndForty(num){
      if(num >= 20 && num <= 40){
-         return true
+         return true;
      } else{
-         return false
+         return false;
      }
  } 
  console.log(betweenTwentyAndForty(33))
  
  function largest(a,b,c){
      if(a > b && a > c){
-         return a
+         return a;
      } else if ( b > a && b >c){
-         return b
+         return b;
      } else {
          return c
      }
      
  }
  console.log(largest(2, 5, 10))
+ 
+ function printTime (){
+let today = new Date();
+let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+return time;
+ }
+ 
+ console.log(printTime());
