@@ -57,6 +57,13 @@ function multiply (num1, num2){
  
  console.log(isNegative(-3));
  
+ 
+ function triangleArea (height, base){
+   return  (height * base)/ 2
+     
+ }
+ console.log (triangleArea(2,3));
+ 
  function betweenTwentyAndForty(num){
      if(num >= 20 && num <= 40){
          return true
