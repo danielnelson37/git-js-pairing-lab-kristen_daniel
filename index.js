@@ -98,3 +98,10 @@ return time;
      return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0)
  }
  console.log(isLeapYears(2000))
+ 
+ function getExtension (filename){
+     
+    const extension = filename.split('.').pop();
+    return extension;
+}
+ console.log (getExtension("demo.txt"))
