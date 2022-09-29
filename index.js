@@ -29,6 +29,9 @@ function untilNum(num){
         console.log(i)
     }
 }
-untilNum(5)
 
+untilNum(5);
 
+function multiply (num1, num2){
+   return num1 * num2}
+   console.log (multiply(2,2))
