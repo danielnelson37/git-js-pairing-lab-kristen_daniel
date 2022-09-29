@@ -105,3 +105,14 @@ return time;
     return extension;
 }
  console.log (getExtension("demo.txt"))
+ 
+ function absoluteNineteen(num){
+     let absoluteDifference = Math.abs(num -19)
+     
+     if (num > 19){
+        return absoluteDifference * 3
+     }else{
+         return absoluteDifference
+     }
+ }
+ console.log(absoluteNineteen(29));
